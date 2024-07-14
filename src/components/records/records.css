@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,'Poppins', sans-serif;
+}
+.record-continer>.space{
+    width: 100%;
+    height: 100px;
+   
+    position: relative;
+    overflow: hidden;
+    background-color: #000000;
+}
+.record-continer>.space>div{
+    width: 120%;
+    height: 120%;
+    background-color: white;
+    position: absolute;
+    transform: rotate(-3deg) translate(-2px, 33px);
+}
+.record-continer{
+    width: 100%;
+    /* height: 100vh; */
+    
+}
+.record-continer>.record-content{
+    width:100% ;
+    /* height: 100vh; */
+    height: 650px;
+    
+    
+    
+    padding: 10px 10px;
+}
+.record-continer>.record-content>h1{
+    font-size: 60px;
+    text-align: center;
+    
+}
+.project1-continar{
+    width: 100%;
+    height: 522px;
+    
+    display: flex;
+    margin-top: 30px;
+
+}
+.project1{
+    height: 100%;
+    width: 929px;
+   
+}
+.project1>img{
+    width: 100%;
+    height: 100%;
+}
+.project1-info{
+    width: 622px;
+    height: 100%;
+    
+    padding: 40px;
+}
+.project1-info>h1{
+    font-size: 45px;
+}
+.project1-info>p{
+    font-size: 25px;
+    
+}
