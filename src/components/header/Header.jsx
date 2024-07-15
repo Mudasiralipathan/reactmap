@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import logo from '../Images/headerlogo.png'
 
 
 const Header = () => {
@@ -13,7 +14,7 @@ const Header = () => {
   return (
     <div className='header-div'>
         <header className="header">
-            <div className="logo"><img src="src\assets\headerlogo.png" alt="" /></div>
+            <div className="logo"><img src={logo} alt="" /></div>
             <div className="nav">
                 {nav.map((item,idx) => (
                     <a id='nav-item' href={item.link} key={idx}>
