@@ -1,5 +1,10 @@
 import React from 'react'
 import './contactus.css'
+import facebookimg from '../Images/facebook.png'
+import mapimg from '../Images/map.png'
+import mailimg from '../Images/mail.png'
+import whatsappimg from '../Images/whatsapp.png'
+import linkedinimg from '../Images/linkedIn.png'
 
 const Contactus = () => {
   return (
@@ -15,7 +20,7 @@ const Contactus = () => {
         <div className="contact-item">
           <div className="item">
             <div className="left">
-              <img src="src\assets\map.png" alt="" />
+              <img src={mapimg} alt="" />
               <div className="a">
                 <span>location</span>
                 <span>karachi</span>
@@ -27,7 +32,7 @@ const Contactus = () => {
 
           <div className="item">
             <div className="left">
-              <img src="src\assets\mail.png" alt="" />
+              <img src={mailimg} alt="" />
               <div className="a">
                 <span> Mail</span>
                 <span>example@gmail.com</span>
@@ -39,7 +44,7 @@ const Contactus = () => {
 
           <div className="item">
             <div className="left">
-              <img src="src\assets\whatsapp.png" alt="" />
+              <img src={whatsappimg} alt="" />
               <div className="a">
                 <span>Whatsapp</span>
                 <span>0123456789</span>
@@ -51,7 +56,7 @@ const Contactus = () => {
 
           <div className="item">
             <div className="left">
-              <img src="src\assets\linkedin.png" alt="" />
+              <img src={linkedinimg} alt="" />
               <div className="a">
                 <span>Linkedin</span>
                 <span>muzamil ali</span>
@@ -63,7 +68,7 @@ const Contactus = () => {
 
           <div className="item">
             <div className="left">
-              <img src="src\assets\facebook.png" alt="" />
+              <img src={facebookimg} alt="" />
               <div className="a">
                 <span>Facebook</span>
                 <span>Muzamil ali</span>
